@@ -6,17 +6,6 @@ import connectToDatabase from './db/db.js';
 import departmentRouter from './routes/department.js';
 import employeeRouter from './routes/employee.js';
 
-import leaveRouter from './routes/leave.js';
-import leaveRouter1  from './routes/leave1.js'
-import leaveRouter2  from './routes/leave2.js'
-import leaveRouter3  from './routes/leave3.js'
-import leaveRouter4  from './routes/leave4.js'
-import leaveRouter5  from './routes/leave5.js'
-import leaveRouter6  from './routes/leave6.js'
-import leaveRouter7  from './routes/leave7.js'
-import leaveRouter8  from './routes/leave8.js'
-import leaveRouter9  from './routes/leave9.js'
-import leaveRouter10  from './routes/leave10.js'
 import leaveRouter11  from './routes/leave11.js'
 
 import settingRouter from './routes/setting.js';
@@ -58,17 +47,7 @@ app.use('/api/auth', authRouter);
 app.use('/api/department', departmentRouter);
 app.use('/api/employee', employeeRouter);
 
-app.use('/api/leave', leaveRouter);
-app.use('/api/leave1',leaveRouter1)
-app.use('/api/leave2',leaveRouter2)
-app.use('/api/leave3',leaveRouter3)
-app.use('/api/leave4',leaveRouter4)
-app.use('/api/leave5',leaveRouter5)
-app.use('/api/leave6',leaveRouter6)
-app.use('/api/leave7',leaveRouter7)
-app.use('/api/leave8',leaveRouter8)
-app.use('/api/leave9',leaveRouter9)
-app.use('/api/leave10',leaveRouter10)
+
 app.use('/api/leave11',leaveRouter11)
 
 app.use('/api/setting', settingRouter);
