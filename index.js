@@ -34,7 +34,7 @@ app.use(helmet({
 
 // Configure CORS
 app.use(cors({
-    origin: 'https://padget-fatp-checksheet.vercel.app',
+    origin: 'https://dataanalytics-frontend.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
